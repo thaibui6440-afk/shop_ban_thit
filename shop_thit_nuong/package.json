@@ -2,7 +2,6 @@
   "name": "shop_thit_nuong",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thaibui6440-afk.github.io/myweb2",
   "dependencies": {
     "@paypal/react-paypal-js": "^9.1.0",
     "@reduxjs/toolkit": "^2.11.2",
@@ -30,8 +29,6 @@
     "xlsx": "^0.18.5"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "set PORT=3001 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -55,8 +52,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000",
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
-  }
+  "proxy": "http://localhost:5000"
 }
